@@ -23,7 +23,7 @@
                 };
 
                 // Auto-save every 60 minutes
-                setInterval(saveRecording, 60 * 60 * 1000);
+                setInterval(saveRecording, 60 * 1000);
 
                 // Stop recording when browser closes
                 window.addEventListener("beforeunload", saveRecording);
